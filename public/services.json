@@ -1,0 +1,27 @@
+[
+    {
+        "_id": 1,
+        "name": "Cardiology",
+        "img": "https://i.ibb.co/Kh2hmqV/medical-icon-heart.png",
+        "des": "Seduahag perspiciati under omnised atused error."
+    },
+    {
+        "_id": 2,
+        "name": "Monthly Check Up",
+        "img": " https://i.ibb.co/p142B7y/check.png",
+        "des": "Seduahag perspiciati under omnised atused error."
+    },
+    {
+        "_id": 3,
+        "name": "Dental Care",
+        "img": "https://i.ibb.co/9bVwkVm/Dental-Care.png",
+        "des": "Seduahag perspiciati under omnised atused error."
+    },
+    {
+        "_id": 4,
+        "name": "Opthalmology",
+        "img": " https://i.ibb.co/P5nRyKC/bag.png",
+        "des": "Seduahag perspiciati under omnised atused error."
+    }
+]
+

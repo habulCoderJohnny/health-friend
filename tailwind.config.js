@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'ellipse': "url('/src/assets/Ellipse 11.png')"
+        'ellipse': "url('/src/assets/Ellipse 11.png')",
+
       }
     },
   },
