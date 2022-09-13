@@ -3,25 +3,24 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      // backgroundImage: {
-      //   'banner': "url('/src/assets/images/bg.png')",
-      //   'footer': "url('/src/assets/images/footer.png')"
-      // }
+      backgroundImage: {
+        'ellipse': "url('/src/assets/Ellipse 11.png')"
+      }
     },
   },
   daisyui: {
     themes: [
       {
         projectTheme: {
-          primary: "#0FCFEC",
-          secondary: "#19D3AE",
-          accent: "#3A4256",
-          neutral: "#3d4451",
-          "base-100": "#ffffff",
+          primary: "#2D89FF",
+          secondary: "#642DFF",
+          accent: "#575757",
+          neutral: "#1E1E1E",
+          "base-100": "#FFFFFF",
         },
       },
-      "dark",
-      "cupcake",
+      // "dark",
+      // "cupcake",
     ],
   },
   plugins: [require("daisyui")],
