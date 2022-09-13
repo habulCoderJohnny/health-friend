@@ -1,5 +1,6 @@
 import React from 'react';
 import pose4 from "../../src/assets/pose_4.png";
+import solution from "../../src/assets/solution.png";
 const FAQ = () => {
 
   return (
@@ -10,12 +11,14 @@ const FAQ = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
 
           <div>
-            <img src={pose4} className="max-w-lg rounded-lg m-10" />
-
+            <img src={pose4} className="max-w-lg rounded-lg" />
+            
           </div>
 
+
+
           <div>
-          <h1 className='text-secondary'>FAQ Questions</h1>
+            <h1 className='text-secondary text-xl'>FAQ Questions</h1>
             <h1 className='text-2xl font-bold'>Get Your General Answer </h1> <br />
 
             <div class="accordion" id="accordionExample">
@@ -48,6 +51,9 @@ const FAQ = () => {
                   </div>
                 </div>
               </div>
+
+
+
               <div class="accordion-item bg-white border border-gray-200">
                 <h2 class="accordion-header mb-0" id="headingTwo">
                   <button class="
@@ -77,6 +83,8 @@ const FAQ = () => {
                   </div>
                 </div>
               </div>
+
+
 
               <div class="accordion-item bg-white border border-gray-200">
                 <h2 class="accordion-header mb-0" id="headingThree">
@@ -109,7 +117,7 @@ const FAQ = () => {
               </div>
 
               <div class="accordion-item bg-white border border-gray-200">
-                <h2 class="accordion-header mb-0" id="headingThree">
+                <h2 class="accordion-header mb-0" id="headingFour">
                   <button class="
         accordion-button
         collapsed
@@ -125,20 +133,23 @@ const FAQ = () => {
         rounded-none
         transition
         focus:outline-none
-      " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
+      " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                    aria-controls="collapseFour">
                     What is one Medical’s care?
                   </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body py-4 px-5">
                     <strong>This is the third item's accordion body.</strong>
                   </div>
                 </div>
               </div>
+
+
+
               <div class="accordion-item bg-white border border-gray-200">
-                <h2 class="accordion-header mb-0" id="headingThree">
+                <h2 class="accordion-header mb-0" id="headingFive">
                   <button class="
         accordion-button
         collapsed
@@ -154,18 +165,21 @@ const FAQ = () => {
         rounded-none
         transition
         focus:outline-none
-      " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
-                    aria-controls="collapseThree">
-                    What is an academic medical center.
+      " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                    aria-controls="collapseFive">
+                    What is an academic medical center?
                   </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body py-4 px-5">
                     <strong>This is the third item's accordion body.</strong>
                   </div>
                 </div>
               </div>
+
+
+
 
             </div>
           </div>

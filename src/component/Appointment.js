@@ -11,10 +11,10 @@ const Appointment = () => {
     return (
         <div className="hero min-h-screen">
   <div className="hero-content flex-col lg:flex-row">
-    <img src={pose3} className="max-w-lg rounded-lg mx-20" />
-    <div>
-      <h1 className="text-secondary">Our Hospital Feature</h1>
-      <p className="py-6 text-5xl font-bold">Make An Appointment Easy And Fast Services </p>
+    <img src={pose3} className="max-w-lg rounded-lg" />
+    <div className=' my-6'>
+      <h1 className="text-secondary text-xl">Our Hospital Feature</h1>
+      <p className="py-6 text-4xl font-bold">Make An Appointment Easy And Fast Services </p>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 my-4'>
             {

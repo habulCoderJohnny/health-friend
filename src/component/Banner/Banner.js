@@ -9,22 +9,18 @@ const Banner = () => {
         <div>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                <div>
-                    <img src={pose} className="max-w-sm rounded-lg bg-ellipse bg-cover mx-20" />
+                    <div>
+                        <img src={pose} className="max-w-sm rounded-lg bg-ellipse bg-cover mx-20" />
 
-              
-                        <img className='mt-[-110px] ml-[-20px]' src={checkupIcon} />
+
+                        <img className='mt-[-120px] ml-[25px]' src={checkupIcon} />
                         <MeetDoc></MeetDoc>
                     </div>
-
-
-
-
 
                     <div>
                         <h1 className="text-5xl font-bold">Your <span className='text-primary'>Health</span> Is Our <br /> Top <span className='text-secondary'>Priority</span></h1>
                         <p className="py-6 text-accent">There are many variations of passages of lpsum <br /> available, but the majority hae suffered.</p>
-                        <button className="btn btn-primary">Meet Our Specialist</button>
+                        <button className="btn btn-primary mb-4">Meet Our Specialist</button>
 
                         <Features></Features>
                     </div>

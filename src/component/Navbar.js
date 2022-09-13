@@ -13,7 +13,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="navbar mx-20">
+        <div className="navbar">
             <div className="">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn lg:hidden">
@@ -23,14 +23,14 @@ const Navbar = () => {
                         {menuItem}
                     </ul>
                 </div>
-                <a className="text-2xl "><span className='text-primary'>Doc</span><span className='text-secondary'>mic.</span></a>
+                <a className="text-2xl font-bold ml-10"><span className='text-primary'>Doc</span><span className='text-secondary'>mic.</span></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItem}
                 </ul>
             </div>
-            <div className="navbar">
+            <div className="navbar ml-6">
                 <a className="btn btn-primary">Free Consulation</a>
             </div>
         </div>

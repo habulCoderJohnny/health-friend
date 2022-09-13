@@ -3,7 +3,7 @@ import Main from './component/Main';
 
 const Home = () => {
     return (
-        <div className='mx-20'>
+        <div>
             <Main></Main>
         </div>
     );
